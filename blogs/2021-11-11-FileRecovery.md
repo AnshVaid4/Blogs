@@ -13,7 +13,7 @@ Image taken from <a href="https://www.provendatarecovery.com/wp-content/uploads
 
 ---
 
-This is my another blog in Cyber Forensics domain, where I will discuss how is it possible to retrieve the deleted data in Windows OS. Before this if you don't know much about Cyber Forensics, you can visit my profile to read them, or visit my website https://cybergeeks.website/ to get more relatable stuffs in Cyber Security domain.
+This blog is on Cyber Forensics domain, where I will discuss how is it possible to retrieve the deleted data in Windows OS. Before this if you don't know much about Cyber Forensics, you can visit my profile to read them, or visit my website https://cybergeeks.website/ to get more relatable stuffs in Cyber Security domain.
 To understand how the deleted files can be retrieved in Windows OS, let's start with the basics of Windows file system, FAT (File Allocation Table) file system (this file system used File Allocation Table, therefore it was named as FAT file system), which was used in floppy disks and other storage media in earlier Windows versions like Windows NT, DOS, Windows XP, Windows 2000 etc.. because the similar concept with little advancement is used in present file systems of Windows (like NTFS) is used, but the base concept is same.
 Link for lab setup
 Floppy disk file link: https://drive.google.com/file/d/1DN8aV2N2aPCQcE3RVpGkhTCeUJlb7cDj/view?usp=sharing
