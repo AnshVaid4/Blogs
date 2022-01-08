@@ -43,8 +43,8 @@ Type any random password
 Setting up proxy
 Run Burp suite tool, start the interceptor and apply the proxy settings in your web browser. Click on Login button in the login page. Since the password is wrong I will definitely get an error message displayed on the screen.
 
-![hack](/assets/EthicalHacking/hydra5.jpg)
-![hack](/assets/EthicalHacking/hydra6.jpg)
+![hack](/assets/EthicalHacking/hydra5.png)
+![hack](/assets/EthicalHacking/hydra6.png)
 
 Error message generated on unsuccessful login
 
@@ -76,7 +76,7 @@ Explanation of above command is as follows:
 > -V option for verbose mode, add -t option if you want to increase the number of threads.
 
 ![hack](/assets/EthicalHacking/hydra7.jpg)
-![hack](/assets/EthicalHacking/hydra8.jpg)
+![hack](/assets/EthicalHacking/hydra8.png)
 
 PRESS ENTER KEY TO RUN THE COMMAND
 
