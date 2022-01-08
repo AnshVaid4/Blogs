@@ -1,13 +1,13 @@
 ---
-title: Working With Intrusion Detection System (IDS) Part 2
+title: Dictionary Attack on Login Form
 author: Ansh Vaid
-date: 2021-12-07 7:10:00 +0530
+date: 2021-12-28 7:10:00 +0530
 categories: [Cyber Forensics]
 tags: [IDS, Intrusion Detection System, HIDS, NIDS, Windows, Rules, Malicious, Requests, Linux, Host based]
 
 ---
 
-![hack](/assets/EthicalHacking/hydrabanner.jpg)
+![hack](/assets/EthicalHacking/hydrabanner.jpeg)
 
 Image taken from <a href="https://miro.medium.com/max/2000/1*NCTCiMU_5o6EgFKUp90wUA.jpeg">here</a>
 
@@ -29,10 +29,10 @@ Vulnerable lab setup:
 > Use openvpn application to access the THM lab
 > Username Santa is known beforehand
 
-![hack](/assets/EthicalHacking/hydra1.jpg)
-![hack](/assets/EthicalHacking/hydra2.jpg)
-![hack](/assets/EthicalHacking/hydra3.jpg)
-![hack](/assets/EthicalHacking/hydra4.jpg)
+![hack](/assets/EthicalHacking/hydra1.jpeg)
+![hack](/assets/EthicalHacking/hydra2.jpeg)
+![hack](/assets/EthicalHacking/hydra3.jpeg)
+![hack](/assets/EthicalHacking/hydra4.jpeg)
 
 Login form
 
@@ -75,7 +75,7 @@ Explanation of above command is as follows:
 > “<URL of the page where login form is present>:<parameter containing username> = ^USER^<parameter containing password> = ^PASS^<paste other parameters as it is>:F=<error message displayed on unsuccessful login which I have shown with arrow in above snapshot>”
 > -V option for verbose mode, add -t option if you want to increase the number of threads.
 
-![hack](/assets/EthicalHacking/hydra7.jpg)
+![hack](/assets/EthicalHacking/hydra7.jpeg)
 ![hack](/assets/EthicalHacking/hydra8.png)
 
 PRESS ENTER KEY TO RUN THE COMMAND
@@ -99,7 +99,7 @@ Upgrade-Insecure-Requests: 1
 
 username=santa&password=cookie&submit=Login
 
-![hack](/assets/EthicalHacking/hydra9.jpg)
+![hack](/assets/EthicalHacking/hydra9.jpeg)
 
 Login successful
 In this way you can customize the hydra command for other login forms in CTF challenges or in vulnerable websites and your dictionary must have that password in it, otherwise no matches would be found an dictionary will over.
